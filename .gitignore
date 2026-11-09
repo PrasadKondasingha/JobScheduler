@@ -1,10 +1,9 @@
 .gradle
+!gradle/wrapper/gradle-wrapper.jar
+
 build/
 *.class
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
+
 
 ### IntelliJ IDEA ###
 .idea
@@ -12,30 +11,6 @@ build/
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
 
 ### Mac OS ###
 .DS_Store
@@ -44,13 +19,9 @@ bin/
 __pycache__/
 *.pyc
 
-# Project-local JDK and temporary downloads
-.jdk/
-.jdk-download.*/
-
 # LaTeX intermediate build files
 report/build/
 
 ### Temporary files ###
-edu
+/edu
 submission
