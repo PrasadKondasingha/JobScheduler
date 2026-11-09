@@ -1,0 +1,41 @@
+Job 201 submitted at 0 ms
+Job 202 submitted at 1 ms
+Job 203 submitted at 2 ms
+Scheduling mode changed to SHORT_JOBS
+Job 202 started at 4 ms
+Job 203 started at 5 ms
+Job 201 started at 60 ms
+JOB STATUS
+Job       Submitted        Started   Actual Time   Completed      Status
+201       0                60        110           170            COMPLETED
+202       1                4         110           114            COMPLETED
+203       2                5         55            60             COMPLETED
+END JOB STATUS
+EXECUTION_ORDER
+202 4 114
+203 5 60
+201 60 170
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [202]
+LEVEL 1: [201]|[203]
+END_TREE
+INORDER: [201, 202, 203]
+MAX_HEAP: []
+TREE_STATS
+records=3
+height=2
+insertions=3
+deletions=0
+left_rotations=1
+right_rotations=0
+END_TREE_STATS
+HEAP_STATS
+size=0
+max_size=3
+insertions=3
+extractions=3
+removals=0
+priority_updates=0
+rebuilds=1
+END_HEAP_STATS

@@ -1,0 +1,28 @@
+Job 10 submitted at 0 ms
+Job 30 submitted at 0 ms
+Job 20 submitted at 0 ms
+EXECUTION_ORDER
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [20]
+LEVEL 1: [10]|[30]
+END_TREE
+INORDER: [10, 20, 30]
+MAX_HEAP: [(10,1,10), (30,1,10), (20,1,10)]
+TREE_STATS
+records=3
+height=2
+insertions=3
+deletions=0
+left_rotations=1
+right_rotations=1
+END_TREE_STATS
+HEAP_STATS
+size=3
+max_size=3
+insertions=3
+extractions=0
+removals=0
+priority_updates=0
+rebuilds=0
+END_HEAP_STATS

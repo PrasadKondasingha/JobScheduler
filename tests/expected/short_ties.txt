@@ -1,0 +1,49 @@
+Job 30 submitted at 0 ms
+Job 10 submitted at 0 ms
+Job 5 submitted at 1 ms
+Job 2 submitted at 2 ms
+Scheduling mode changed to SHORT_JOBS
+Job 30 priority updated to 9
+Job 2 started at 4 ms
+Job 30 started at 5 ms
+Job 10 started at 115 ms
+Job 1 submitted at 115 ms
+Job 1 started at 125 ms
+JOB STATUS
+Job       Submitted        Started   Actual Time   Completed      Status
+1         115              125       2             127            COMPLETED
+2         2                4         201           205            RUNNING
+5         1                null      null          null           WAITING
+10        0                115       10            125            COMPLETED
+30        0                5         110           115            COMPLETED
+END JOB STATUS
+EXECUTION_ORDER
+2 4 205
+30 5 115
+10 115 125
+1 125 127
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [10]
+LEVEL 1: [2]|[30]
+LEVEL 2: [1]|[5]
+END_TREE
+INORDER: [1, 2, 5, 10, 30]
+MAX_HEAP: [(5,5,10)]
+TREE_STATS
+records=5
+height=3
+insertions=5
+deletions=0
+left_rotations=0
+right_rotations=2
+END_TREE_STATS
+HEAP_STATS
+size=1
+max_size=4
+insertions=5
+extractions=4
+removals=0
+priority_updates=1
+rebuilds=1
+END_HEAP_STATS

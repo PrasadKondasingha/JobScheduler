@@ -1,0 +1,39 @@
+Job 1 submitted at 0 ms
+Job 2 submitted at 0 ms
+Job 3 submitted at 0 ms
+Job 4 submitted at 0 ms
+Job 4 priority updated to 20
+Job 4 priority updated to -10
+Job 2 cancelled
+Job 1 started at 2 ms
+Job 3 started at 12 ms
+Job 4 started at 22 ms
+NO_WAITING_JOBS
+EXECUTION_ORDER
+1 2 12
+3 12 22
+4 22 32
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [3]
+LEVEL 1: [1]|[4]
+END_TREE
+INORDER: [1, 3, 4]
+MAX_HEAP: []
+TREE_STATS
+records=3
+height=2
+insertions=4
+deletions=1
+left_rotations=1
+right_rotations=0
+END_TREE_STATS
+HEAP_STATS
+size=0
+max_size=4
+insertions=4
+extractions=3
+removals=1
+priority_updates=2
+rebuilds=0
+END_HEAP_STATS

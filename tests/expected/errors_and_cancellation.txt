@@ -1,0 +1,46 @@
+Job 2 submitted at 0 ms
+Job 1 submitted at 0 ms
+Job 3 submitted at 0 ms
+Job 2 cancelled
+Job 2: submitted=0, started=null, actual_time=null, completed=null, status=CANCELLED
+ERROR: Job 2 cannot be cancelled while status is CANCELLED
+ERROR: Job 2 priority cannot be updated while status is CANCELLED
+ERROR: Job 2 already exists
+Job 3 started at 2 ms
+ERROR: Job 3 cannot be cancelled while status is RUNNING
+ERROR: Job 3 priority cannot be updated while status is RUNNING
+Job 3: submitted=0, started=2, actual_time=5, completed=7, status=COMPLETED
+ERROR: Job 3 cannot be cancelled while status is COMPLETED
+ERROR: Job 3 priority cannot be updated while status is COMPLETED
+Job 1 cancelled
+JOB STATUS
+Job       Submitted        Started   Actual Time   Completed      Status
+3         0                2         5             7              COMPLETED
+2         0                null      null          null           CANCELLED
+1         0                null      null          null           CANCELLED
+END JOB STATUS
+EXECUTION_ORDER
+3 2 7
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [3]
+END_TREE
+INORDER: [3]
+MAX_HEAP: []
+TREE_STATS
+records=1
+height=1
+insertions=3
+deletions=2
+left_rotations=0
+right_rotations=0
+END_TREE_STATS
+HEAP_STATS
+size=0
+max_size=3
+insertions=3
+extractions=1
+removals=2
+priority_updates=0
+rebuilds=0
+END_HEAP_STATS

@@ -1,0 +1,50 @@
+Job 9 submitted at 0 ms
+Job 5 submitted at 0 ms
+Job 10 submitted at 0 ms
+Job 0 submitted at 0 ms
+Job 6 submitted at 0 ms
+Job 11 submitted at 0 ms
+Job -1 submitted at 0 ms
+Job 1 submitted at 0 ms
+Job 2 submitted at 0 ms
+Job 10 cancelled
+Job 9 cancelled
+Job 5 cancelled
+JOB STATUS
+Job       Submitted        Started   Actual Time   Completed      Status
+-1        0                null      null          null           WAITING
+0         0                null      null          null           WAITING
+1         0                null      null          null           WAITING
+2         0                null      null          null           WAITING
+6         0                null      null          null           WAITING
+11        0                null      null          null           WAITING
+10        0                null      null          null           CANCELLED
+9         0                null      null          null           CANCELLED
+5         0                null      null          null           CANCELLED
+END JOB STATUS
+EXECUTION_ORDER
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [1]
+LEVEL 1: [0]|[6]
+LEVEL 2: [-1]|NULL|[2]|[11]
+END_TREE
+INORDER: [-1, 0, 1, 2, 6, 11]
+MAX_HEAP: [(-1,1,10), (1,1,10), (0,1,10), (2,1,10), (6,1,10), (11,1,10)]
+TREE_STATS
+records=6
+height=3
+insertions=9
+deletions=3
+left_rotations=1
+right_rotations=3
+END_TREE_STATS
+HEAP_STATS
+size=6
+max_size=9
+insertions=9
+extractions=0
+removals=3
+priority_updates=0
+rebuilds=0
+END_HEAP_STATS

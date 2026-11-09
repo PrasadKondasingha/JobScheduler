@@ -1,0 +1,47 @@
+Job 1 submitted at 0 ms
+Job 2 submitted at 0 ms
+Job 3 submitted at 0 ms
+Job 4 submitted at 0 ms
+Job 1 started at 0 ms
+Job 2 started at 0 ms
+Job 3 started at 10 ms
+Job 1: submitted=0, started=0, actual_time=10, completed=10, status=COMPLETED
+Job 2: submitted=0, started=0, actual_time=10, completed=10, status=COMPLETED
+Job 4 started at 10 ms
+JOB STATUS
+Job       Submitted        Started   Actual Time   Completed      Status
+1         0                0         10            10             COMPLETED
+2         0                0         10            10             COMPLETED
+3         0                10        5             15             COMPLETED
+4         0                10        5             15             COMPLETED
+END JOB STATUS
+EXECUTION_ORDER
+1 0 10
+2 0 10
+3 10 15
+4 10 15
+END_EXECUTION_ORDER
+TREE
+LEVEL 0: [2]
+LEVEL 1: [1]|[3]
+LEVEL 2: NULL|NULL|NULL|[4]
+END_TREE
+INORDER: [1, 2, 3, 4]
+MAX_HEAP: []
+TREE_STATS
+records=4
+height=3
+insertions=4
+deletions=0
+left_rotations=1
+right_rotations=0
+END_TREE_STATS
+HEAP_STATS
+size=0
+max_size=4
+insertions=4
+extractions=4
+removals=0
+priority_updates=0
+rebuilds=0
+END_HEAP_STATS

@@ -1,0 +1,32 @@
+NO_WAITING_JOBS
+ERROR: Job 9 not found
+ERROR: Job 9 not found
+ERROR: Job 9 not found
+JOB STATUS
+Job       Submitted        Started   Actual Time   Completed      Status
+END JOB STATUS
+Scheduling mode changed to SHORT_JOBS
+Scheduling mode changed to SHORT_JOBS
+EXECUTION_ORDER
+END_EXECUTION_ORDER
+TREE
+END_TREE
+INORDER: []
+MAX_HEAP: []
+TREE_STATS
+records=0
+height=0
+insertions=0
+deletions=0
+left_rotations=0
+right_rotations=0
+END_TREE_STATS
+HEAP_STATS
+size=0
+max_size=0
+insertions=0
+extractions=0
+removals=0
+priority_updates=0
+rebuilds=1
+END_HEAP_STATS
